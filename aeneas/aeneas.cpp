@@ -114,6 +114,7 @@ double computeDistanceOfTwoPoints(int radius, double firstDegree,
     degreesBetweenTwoNodes = (180 - degreesBetweenTwoNodes) / 2;
     degreesBetweenTwoNodes = degreesBetweenTwoNodes * 3.14159 / 180;
     distanceBetweenTwoNodes = 2 * radius * cos(degreesBetweenTwoNodes);
+
     if (distanceBetweenTwoNodes < 0) {
         distanceBetweenTwoNodes = -distanceBetweenTwoNodes;
     }
